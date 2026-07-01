@@ -6,7 +6,7 @@
 | 4      | URL Check                                                    | https://github.com/openssl/openssl/issues/25739   | confirmed as feature, backlog fix              |
 | 5      | Empty key usage extension                                    | https://github.com/openssl/openssl/issues/25937   | confirmed as feature, backlog fix                      |
 | 6      | Incorrect Basic Constraints Extension                        | https://github.com/openssl/openssl/issues/26044   | confirmed as feature, backlog fix              |
-| 7      | Misjudgment of CRL Distribution Points extension             | https://github.com/openssl/openssl/issues/26161   | confirmed as feature, backlog fix                     |
+| 7      | Misjudgment of CRL Distribution Points extension             | https://github.com/openssl/openssl/issues/26161   | confirmed as feature, backlog fix, Todo                     |
 | 8      | The Extended Key Usage extension should be invalid           | https://github.com/openssl/openssl/issues/26133   | confirmed as feature, backlog fix                     |
 | 9     | Null value aki extension validity                            | https://github.com/openssl/openssl/issues/27360   | confirmed as feature, backlog fix, fixed              |
 | 10     | Invalid certificate policy extension                         | https://gitlab.com/gnutls/gnutls/-/issues/1623    | confirmed as bug                         |
