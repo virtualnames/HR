@@ -13,7 +13,7 @@
 | 11     | Subnet mask analysis                                         | https://gitlab.com/gnutls/gnutls/-/issues/1596    | confirmed as enhancement, fixed          |
 | 12     | Empty keyusage extension                                     | https://gitlab.com/gnutls/gnutls/-/issues/1608    | confirmed as enhancement                 |
 | 13     | WolfSSL Incorrect validation passed for certificate with duplicate extensions | https://github.com/wolfSSL/wolfssl/issues/8503    | confirmed as bug                         |
-| 14     | WolfSSL reject a critical Policy Mappings                    | https://github.com/wolfSSL/wolfssl/issues/8524    | confirmed as bug                         |
+| 14     | WolfSSL reject a critical Policy Mappings                    | https://github.com/wolfSSL/wolfssl/issues/8524    | confirmed as bug, moving to internal tracker, completed                         |
 | 15     | Verifying a certificate with SAN extension                   | https://github.com/wolfSSL/wolfssl/issues/8592    | confirmed as bug                         |
 | 16     | Extension SEQUENCE SIZE(1..MAX) and Extension value of zero bytes | https://github.com/wolfSSL/wolfssl/issues/8704    | confirmed as bug                         |
 | 17     | Verify should reject certificates with empty issuers         | https://github.com/golang/go/issues/71832         | confirmed as bug, fixed                  |
