@@ -15,7 +15,7 @@
 | 13     | WolfSSL Incorrect validation passed for certificate with duplicate extensions | https://github.com/wolfSSL/wolfssl/issues/8503    | confirmed as bug                         |
 | 14     | WolfSSL reject a critical Policy Mappings                    | https://github.com/wolfSSL/wolfssl/issues/8524    | confirmed as bug, moving to internal tracker, completed                         |
 | 15     | Verifying a certificate with SAN extension                   | https://github.com/wolfSSL/wolfssl/issues/8592    | confirmed as bug, completed                         |
-| 16     | Extension SEQUENCE SIZE(1..MAX) and Extension value of zero bytes | https://github.com/wolfSSL/wolfssl/issues/8704    | confirmed as bug                         |
+| 16     | Extension SEQUENCE SIZE(1..MAX) and Extension value of zero bytes | https://github.com/wolfSSL/wolfssl/issues/8704    | confirmed as bug, "This is still on my list of things to fix, and will definitely be addressed when I have the time to do so", completed                         |
 | 17     | Verify should reject certificates with empty issuers         | https://github.com/golang/go/issues/71832         | confirmed as bug, fixed                  |
 | 18     | Verify allows serialNumber larger than 20 octets             | https://github.com/golang/go/issues/72076         | confirmed as feature, FrozenDueToAge                     |
 | 19     | ossl_x509v3_cache_extensions() did not successfully check for duplicates of aia extensions | https://github.com/openssl/openssl/issues/26325   | confirmed as feature，backlog fix, fixed              |
