@@ -21,7 +21,7 @@
 | 19     | ossl_x509v3_cache_extensions() did not successfully check for duplicates of aia extensions | https://github.com/openssl/openssl/issues/26325   | confirmed as feature，backlog fix              |
 | 20     | Validation of certificate with CRL Distribution Points extension failed | https://github.com/openssl/openssl/issues/26323   | confirmed as feature, backlog fix                     |
 | 21     | OpenSSL validation passed the final entity certificate with name constraints | https://github.com/openssl/openssl/issues/26792   | confirmed as feature, backlog fix                     |
-| 22     | Client Certificate Verifier                                  | https://github.com/pyca/cryptography/issues/12654 | confirmed as feature, fixed (aae8e48)                    |
+| 22     | Client Certificate Verifier                                  | https://github.com/pyca/cryptography/issues/12654 | confirmed as feature, fixed (12655, aae8e48, Pull request successfully merged and closed)                    |
 | 23     | certificate with empty Authority Key Identifier extension considered invalid | https://github.com/golang/go/issues/70619         | Awaiting developer handling, NeedInvestigation              |
 | 24     | Verify should error if non-CA certificate contains name constraints | https://github.com/golang/go/issues/71795         | Awaiting developer handling, NeedInvestigation              |
 | 25     | GnuTLS error accepted incorrect keyUsage extension           | https://gitlab.com/gnutls/gnutls/-/issues/1642    | Awaiting developer handling, compliance              |
