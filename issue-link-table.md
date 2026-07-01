@@ -10,7 +10,7 @@
 | 8      | The Extended Key Usage extension should be invalid           | https://github.com/openssl/openssl/issues/26133   | confirmed as feature, backlog fix                     |
 | 9     | Null value aki extension validity                            | https://github.com/openssl/openssl/issues/27360   | confirmed as feature, backlog fix, fixed (aad66c7)             |
 | 10     | Invalid certificate policy extension                         | https://gitlab.com/gnutls/gnutls/-/issues/1623    | confirmed as compliance                         |
-| 11     | Subnet mask analysis                                         | https://gitlab.com/gnutls/gnutls/-/issues/1596    | confirmed as enhancement, fixed          |
+| 11     | Subnet mask analysis                                         | https://gitlab.com/gnutls/gnutls/-/issues/1596    | confirmed as enhancement, fixed (a5cbaec3)         |
 | 12     | Empty keyusage extension                                     | https://gitlab.com/gnutls/gnutls/-/issues/1608    | confirmed as enhancement                 |
 | 13     | WolfSSL Incorrect validation passed for certificate with duplicate extensions | https://github.com/wolfSSL/wolfssl/issues/8503    | confirmed as bug                         |
 | 14     | WolfSSL reject a critical Policy Mappings                    | https://github.com/wolfSSL/wolfssl/issues/8524    | confirmed as bug, moving to internal tracker, completed                         |
