@@ -2,7 +2,7 @@
 | ------ | ------------------------------------------------------------ | :------------------------------------------------ | ---------------------------------------- |
 | 1      | OpenSSL converted certificate with duplicate extensions      | https://github.com/openssl/openssl/issues/25799   | confirmed as bug, backlog fix, Closing the issue as this is implemented on master branch.                      |
 | 2      | OpenSSL converted certificate with incorrect subnet mask     | https://github.com/openssl/openssl/issues/25852   | confirmed as bug, backlog fix, (29508, pull request)            |
-| 3      | The certificate policy extension without the OID part should be invalid | https://github.com/openssl/openssl/issues/26099   | confirmed as bug, backlog fix                  |
+| 3      | The certificate policy extension without the OID part should be invalid | https://github.com/openssl/openssl/issues/26099   | confirmed as bug, backlog fix, (29490, fixes)                  |
 | 4      | URL Check                                                    | https://github.com/openssl/openssl/issues/25739   | confirmed as feature, backlog fix              |
 | 5      | Empty key usage extension                                    | https://github.com/openssl/openssl/issues/25937   | confirmed as feature, backlog fix                      |
 | 6      | Incorrect Basic Constraints Extension                        | https://github.com/openssl/openssl/issues/26044   | confirmed as feature, backlog fix              |
