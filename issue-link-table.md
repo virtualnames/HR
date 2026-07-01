@@ -18,7 +18,7 @@
 | 16     | Extension SEQUENCE SIZE(1..MAX) and Extension value of zero bytes | https://github.com/wolfSSL/wolfssl/issues/8704    | confirmed as bug, "This is still on my list of things to fix, and will definitely be addressed when I have the time to do so", completed                         |
 | 17     | Verify should reject certificates with empty issuers         | https://github.com/golang/go/issues/71832         | confirmed as bug, fixed (https://go-review.googlesource.com/c/go/+/655715, Change-Id: I6df278849f4c23e66353e296e4d6fc48a2430238)                  |
 | 18     | Verify allows serialNumber larger than 20 octets             | https://github.com/golang/go/issues/72076         | confirmed as feature, FrozenDueToAge                     |
-| 19     | ossl_x509v3_cache_extensions() did not successfully check for duplicates of aia extensions | https://github.com/openssl/openssl/issues/26325   | confirmed as feature，backlog fix, fixed              |
+| 19     | ossl_x509v3_cache_extensions() did not successfully check for duplicates of aia extensions | https://github.com/openssl/openssl/issues/26325   | confirmed as feature，backlog fix              |
 | 20     | Validation of certificate with CRL Distribution Points extension failed | https://github.com/openssl/openssl/issues/26323   | confirmed as feature, backlog fix                     |
 | 21     | OpenSSL validation passed the final entity certificate with name constraints | https://github.com/openssl/openssl/issues/26792   | confirmed as feature, backlog fix                     |
 | 22     | Client Certificate Verifier                                  | https://github.com/pyca/cryptography/issues/12654 | confirmed as feature, fixed (aae8e48)                    |
